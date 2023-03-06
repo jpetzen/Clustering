@@ -7,7 +7,7 @@ import base64
 
 
  
-FilePath=r"data/new_data.xlsx"
+FilePath=r"data/new_data1.xlsx"
 grafiLL=glob.glob("graf/grafiLL/*.svg")# pazi na velikost slik max je 200mb
 grafiH=glob.glob("graf/grafiH/*.svg")
 grafiRL=glob.glob("graf/grafiRL/*.svg")
