@@ -5,7 +5,7 @@ import pandas as pd
 import glob
 import base64
 
-st.session_state['answer'] = ''!
+
  
 FilePath=r"data/new_data1.xlsx"
 grafiLL=glob.glob("graf/grafiLL/*.svg")# pazi na velikost slik max je 200mb
@@ -43,7 +43,7 @@ layout="wide",#da imamo tabelo čez celo stran
 )
 #naslov
 st.header("ABI Anotacije")
-
+st.session_state['answer'] = ''!
 #vnos slik
 ShowImageLL = JsCode("""function (params) {
       if (params.value) {
