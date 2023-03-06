@@ -8,9 +8,9 @@ import base64
 st.session_state['answer'] = ''
  
 FilePath=r"data/new_data1.xlsx"
-grafiLL=glob.glob("graf/grafiLL/*.svg")# pazi na velikost slik max je 200mb
-grafiH=glob.glob("graf/grafiH/*.svg")
-grafiRL=glob.glob("graf/grafiRL/*.svg")
+grafiLL=glob.glob("data/grafiLL/*.svg")# pazi na velikost slik max je 200mb
+grafiH=glob.glob("data/grafiH/*.svg")
+grafiRL=glob.glob("data/grafiRL/*.svg")
 
 df= pd.read_excel(FilePath,usecols=["index","label","comment","min","max","mean","std","skew","cluster","FileID"])#katere vrstice rabimo
 imagesLL=[]
