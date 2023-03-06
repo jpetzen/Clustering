@@ -5,7 +5,7 @@ import pandas as pd
 import glob
 import base64
 
-
+st.session_state['answer'] = ''!
  
 FilePath=r"data/new_data1.xlsx"
 grafiLL=glob.glob("graf/grafiLL/*.svg")# pazi na velikost slik max je 200mb
