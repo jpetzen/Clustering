@@ -10,9 +10,9 @@ st.session_state['answer'] = ''    #za git runnat
 
 
 FilePath = "data/data.csv"
-grafiLL = glob.glob("graf/grafiLL/*.svg")  # pazi na velikost slik max je 200mb
-grafiH = glob.glob("graf/grafiH/*.svg")
-grafiRL = glob.glob("graf/grafiRL/*.svg")
+grafiLL = glob.glob("data/grafiLL/*.svg")  # pazi na velikost slik max je 200mb
+grafiH = glob.glob("data/grafiH/*.svg")
+grafiRL = glob.glob("data/grafiRL/*.svg")
 
 # df= pd.read_excel(FilePath,usecols=["ID","label","comment","min","max","mean","std","skew","C"])#katere vrstice rabimo
 df = pd.read_csv(FilePath)
