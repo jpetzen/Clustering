@@ -7,7 +7,7 @@ import base64
 import openpyxl
 
 
-st.session_state['answer'] = ''!   #za git runnat
+st.session_state['answer'] = ''  #za git runnat
 
 
 FilePath = "data/data.csv"
