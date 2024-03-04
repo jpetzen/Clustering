@@ -1,8 +1,8 @@
 # Anotacije
 
 ## Kazalo
-# [Narejeno z](#Narejeno-z)
-# [Navodila za namestitev](#Navodila-za-namestitev)
+* [Narejeno z](#Narejeno-z)
+* [Navodila za namestitev](#Navodila-za-namestitev)
 
 ## Narejeno z
 * [Streamlit](https://streamlit.io/) -  Python library that simplifies the creation of web applications for data science and machine learning by allowing developers to turn data scripts into shareable web apps quickly.
