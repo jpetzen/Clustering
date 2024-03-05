@@ -5,8 +5,8 @@
 * [Navodila za namestitev](#Navodila-za-namestitev)
 
 ## Narejeno z
-* [Streamlit](https://streamlit.io/) -  Python library that simplifies the creation of web applications for data science and machine learning by allowing developers to turn data scripts into shareable web apps quickly.
-* [st_aggrid](https://streamlit-aggrid.readthedocs.io/en/docs/Usage.html) - Streamlit component that enables interactive and customizable data grids.
+* [Streamlit](https://streamlit.io/) -  Python knjižnica, ki poenostavlja ustvarjanje spletnih aplikacij za podatkovno znanost in strojno učenje, saj omogoča razvijalcem hitro pretvorbo skript za obdelavo podatkov v deljive spletne aplikacije.
+* [st_aggrid](https://streamlit-aggrid.readthedocs.io/en/docs/Usage.html) - Streamlit komponenta, ki omogoča interaktivne in prilagodljive podatkovne mreže
 
 ## Navodila za namestitev
 
